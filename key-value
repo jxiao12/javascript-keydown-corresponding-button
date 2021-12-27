@@ -1,0 +1,5 @@
+Determine the entered key value:
+
+
+if(event.keyCode==13)
+  // code here
