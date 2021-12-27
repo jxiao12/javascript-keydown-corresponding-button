@@ -1,0 +1,36 @@
+Get keyboard events:
+
+
+document.function(event){
+
+  if(event.keyCode==27){ // 按 Esc 触发
+ 
+   }
+  if(event.keyCode==113){ // 按 F2出触发
+    }      
+   if(event.keyCode==13){ // enter 键触发
+     
+  }
+}; 
+
+
+
+
+Judge keyboard keys
+
+window.document.onkeydown = disableRefresh;
+function disableRefresh(evt){
+evt = (evt) ? evt : window.event
+if (evt.keyCode) {
+  if(evt.keyCode == 116){
+   //do something
+  }
+}
+}
+
+
+if(event.keyCode==13){
+var ieKey=event.keyCode;
+var realkey=String.fromCharCode(ieKey) 
+alert(realkey);
+}
